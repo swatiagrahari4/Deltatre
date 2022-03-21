@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  deltatresearch:
+    image: ${DOCKER_REGISTRY-}deltatresearch
+    
+    build:
+      context: .
+      dockerfile: DeltatreSearch/Dockerfile
+    
+  backendservice:
+    image: redis
+
+
+            
