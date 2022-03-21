@@ -1,0 +1,5 @@
+obj\Debug\netcoreapp3.1/Searchword.cs \
+obj\Debug\netcoreapp3.1/SearchwordGrpc.cs: Protos/google/api/http.proto\
+ C:/Users/swati/.nuget/packages/grpc.tools/2.27.0/build/native/include/google/protobuf/descriptor.proto\
+ Protos/google/api/annotations.proto\
+ Protos/searchword.proto
